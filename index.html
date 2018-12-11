@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/a86525100e.js"></script>
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+   
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="headerContent">      
+                <div class="header-text">
+                    <h3 class="animated zoomIn">Chance</h3>
+                    <p>A great little game to waste time at work if you can't...</p>
+                    <h1 class= "animated slideInUp">get out of work free</h1>
+                    <p class="animated lightSpeedIn">These excuses may be kept until needed or sold.</p>
+                </div> <!-- header-text -->
+                
+                <img src="assets/header-monopoly-man.png" class="animated slideInRight" alt="monopoly character from get out jail free card">
+            </div> <!--headerContent-->
+            <div class="next animated slideInUp">
+                <a href="#work">
+                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                    <p>Play!</p>
+                </a>
+            </div>
+        </header>
+    </div> <!-- wrapper -->
+
+    <div class="wrapper">
+        <div class="work" id="work">
+            <h2>Where do you work?</h2>
+            
+            <div class="workContent">
+                <form action="">
+                    <input type="radio" name="workplace" value="office" id="tophat">
+                    <label for="tophat">
+                        <img src="assets/monopoly-hat.png" alt="Monopoly tophat piece icon">
+                        <p class="tophat">Office</p>
+                    </label>
+                    
+                    <input type="radio" name="workplace" value="outside" id="shoe">
+                    <label for="shoe">
+                        <img src="assets/monopoly-shoe.png" alt="Monopoly shoe icon">
+                        <p class="boot">Factory</p>
+                    </label>
+                    
+                    <input type="radio" name="workplace" value="home" id="iron">
+                    <label for="iron">
+                        <img src="assets/monopoly-iron.png" alt="Monopoly iron icon">
+                        <p class="iron">Home</p>
+                    </label>
+                    
+                    <input type="radio" name="workplace" value="car" id="car">
+                    <label for="car">
+                        <img src="assets/monopoly-car.png" alt="Monopoly car icon">
+                        <p class="car">Trades</p>
+                    </label>
+                </div> <!--workContent-->   
+                <div class="next animated slideInUp">
+                    <a href="#desperation">
+                        <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                        <p>Next</p>
+                    </a>
+                </div>
+            </div> <!-- work -->
+     </div> <!-- wrapper -->
+     
+     <div class="wrapper">
+        <div class="desperation" id="desperation">
+            <h2>How do you feel about working today?</h2>
+            
+            <div class="deeds">
+                <input type="radio" name="propCard" value="parkPlace" id="parkPlaceCard">
+                <label for="parkPlaceCard">
+                    <img  src="assets/ParkPlace.jpg" alt="monopoly parkPlace property card with caption 'please don't make me go" class="deedsImg">
+                </label>
+
+                <input type="radio" name="propCard" value="marvinGardens" id="marvinGardens">
+                <label for="marvinGardens">
+                    <img src="assets/marvinGardens.png" alt="monopoly marving gardens card with caption 'do i really need this job'" class="deedsImg">
+                </label>
+            
+                <input type="radio" name="propCard" value="balticAve" id="balticAveCard">
+                <label for="balticAveCard">
+                    <img src="assets/balticAve.jpg" alt="monopoly balticAve property card with caption 'i'd rather stick a fork in my eye" class="deedsImg">
+                </label>
+
+                <input type="radio" name="propCard" value="orange" id="orangeCard">
+                <label for="orangeCard">
+                    <img src="assets/orange.jpg" alt="monopoly orange property card with caption 'just kill me now'" class="deedsImg">
+                </label>
+            </div> <!-- deeds -->
+
+            <div class="submit">
+                <button type: "submit" style: "background: transparent">
+                    <img src="assets/go_monopoly.png" alt="monopoly go square">
+                </button>
+            </div> <!-- submit -->
+            </form>
+        </div> <!-- desperation -->
+
+        <div class="response">        
+        </div>
+     </div><!-- wrapper -->
+    <div class="home animated slideInUp">
+        <a href="http://www.eileenchoi.com/monopoly">
+            <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+            <p>Play Again!</p>
+        </a>
+    </div>
+     
+    <footer id="footer">
+        <p>&copy; Eileen Choi</p>
+        <p>credit to Anna Lupean from the Noun Project for the Monopoly themed icons</p>
+    </footer>
+    
+
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>
